@@ -9,8 +9,7 @@ namespace Ejercicio02
     class Class1
     {
          static void Main()
-        {  /*2.Pedir por consola un nombre de persona y el nombre de una ciudad(no hace falta 
-            que sean reales o comprobarlos) y mostrar por pantalla, el siguiente mensaje "Hola " nombre " 
+        {  /*Pedir por consola el nombre de la persona y el nombre de la ciudad donde reside y mostrar por pantalla, el siguiente mensaje "Hola " nombre " 
             bienvenido a " ciudad*/
 
             string name, city;
@@ -23,5 +22,6 @@ namespace Ejercicio02
 
             Console.WriteLine("Hola " + name + " Bienvenido a " + city);
             Console.ReadLine();
+         }
     }
 }
