@@ -14,10 +14,10 @@ namespace Ejercicio02
 
             string name, city;
 
-            Console.WriteLine("Estimado usuario, ingrese su nombre por favor :)");
+            Console.WriteLine("Estimado usuario, ingrese su nombre por favor :");
             name = Console.ReadLine();
 
-            Console.WriteLine("Ahora ingrese la ciudad en donde reside :)");
+            Console.WriteLine("Ahora ingrese la ciudad en donde reside :");
             city = Console.ReadLine();
 
             Console.WriteLine("Hola " + name + " Bienvenido a " + city);
